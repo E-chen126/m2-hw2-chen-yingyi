@@ -6,15 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <!-- CSS -->
     <link rel="stylesheet" href="main.css">
+
     <title>Document</title>
 </head>
+
 <body>
     <div class="container text-center">
+        
         <h1 class="text-uppercase text-center text-primary p-3">Responsive image gallery</h1>
-    
-        <div class="row">
+
+        <!-- image gallery -->
+        <div class="row mt-5">
             <div class="col-md-6 col-lg-4">
                 <img src="img/hw2-image2.png" class="shadow-lg img-thumbnail mb-2" alt="cupcakes">
                 <img src="img/hw2-image4.png" class="shadow-lg img-thumbnail mb-2" alt="beach">
@@ -36,13 +39,22 @@
             <div class="d-lg-none col-md-6">
                 <img src="img/hw2-image7.png" class="shadow-lg img-thumbnail mb-2" alt="palm trees pn beach"> 
             </div>
+        </div> 
+        <!-- image gallery end here -->
 
-        </div>   
-    </div>
+        <!-- Alert -->
+        <div class="alert alert-primary alert-dismissible fade show mt-5" role="alert">
+            <p class="my-auto">Want see more pictures? <a class="alert-link" href="https://unsplash.com/" target="_blank">Click me!</a></p>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+
+    </div>  
+
+
+    
     
 
-
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    
 </body>
 </html>
