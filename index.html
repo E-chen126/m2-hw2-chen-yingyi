@@ -11,17 +11,33 @@
     <title>Document</title>
 </head>
 <body>
-    <h1 class="text-center text-primary p-2">Responsive image gallery</h1>
-    <div class="container">
-        <img src="img/hw2-image1.png" alt="building">
-        <img src="img/hw2-image2.png" alt="cupcakes">
-        <img src="img/hw2-image3.png" alt="girl with headphone">
-        <img src="img/hw2-image4.png" alt="beach">
-        <img src="img/hw2-image5.png" alt="building2">
-        <img src="img/hw2-image6.png" alt="headphone with yellow background">
-        <img src="img/hw2-image7.png" alt="palm trees pn beach">
-        <img src="img/hw2-image8.png" alt="gril wink">
-        <img src="img/hw2-image9.png" alt="island">
+    <div class="container text-center">
+        <h1 class="text-center text-primary p-3">Responsive image gallery</h1>
+    
+        <div class="row">
+            <div class="col-md-6 col-lg-4">
+                <img src="img/hw2-image2.png" class="img-thumbnail mb-2" alt="cupcakes">
+                <img src="img/hw2-image4.png" class="img-thumbnail mb-2" alt="beach">
+                <img src="img/hw2-image8.png" class="img-thumbnail mb-2" alt="gril wink">
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <img src="img/hw2-image1.png" class="img-thumbnail mb-2" alt="building">
+                <img src="img/hw2-image6.png" class="img-thumbnail mb-2" alt="headphone with yellow background">
+                <img src="img/hw2-image5.png" class="img-thumbnail mb-2" alt="building2">
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+                <img src="img/hw2-image3.png" class="column img-thumbnail mb-2" alt="girl with headphone">
+                <img src="img/hw2-image9.png" class="column img-thumbnail mb-2" alt="island">
+                <img src="img/hw2-image7.png" class="d-none d-lg-inline column img-thumbnail mb-2" alt="palm trees pn beach">       
+            </div>
+
+            <div class="d-lg-none col-md-6">
+                <img src="img/hw2-image7.png" class="column img-thumbnail mb-2" alt="palm trees pn beach"> 
+            </div>
+
+        </div>   
     </div>
     
 
